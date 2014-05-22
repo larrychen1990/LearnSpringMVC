@@ -32,7 +32,7 @@
 
     <filter>
         <filter-name>freeMarkerFilter</filter-name>
-        <filter-class>com.gary.home.filter.ServletFilter</filter-class>
+        <filter-class>com.hawk.home.filter.ServletFilter</filter-class>
     </filter>
     <filter-mapping>
         <filter-name>freeMarkerFilter</filter-name>

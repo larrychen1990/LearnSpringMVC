@@ -11,10 +11,10 @@
             http://www.springframework.org/schema/context
             http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
-    <context:component-scan base-package="com.gary.home.controller" />
+    <context:component-scan base-package="com.hawk.home.controller" />
 
     <mvc:interceptors>
-        <bean class="com.gary.home.interceptor.HelloWorldInterceptor" />
+        <bean class="com.hawk.home.interceptor.HelloWorldInterceptor" />
     </mvc:interceptors>
 
     <!-- freemarker config -->
