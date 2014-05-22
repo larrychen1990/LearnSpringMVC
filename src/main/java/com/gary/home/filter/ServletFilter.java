@@ -13,13 +13,11 @@ import javax.servlet.http.HttpServletResponse;
 
 public class ServletFilter implements Filter {
 
-    @Override
     public void destroy() {
         // TODO Auto-generated method stub
 
     }
 
-    @Override
     public void doFilter(ServletRequest request, ServletResponse response,
                          FilterChain chain) throws IOException, ServletException {
         // 使用我们自定义的响应包装器来包装原始的ServletResponse
@@ -36,7 +34,6 @@ public class ServletFilter implements Filter {
         out.close();
     }
 
-    @Override
     public void init(FilterConfig filterConfig) throws ServletException {
         // TODO Auto-generated method stub
 
