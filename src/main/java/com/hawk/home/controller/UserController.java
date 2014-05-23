@@ -8,13 +8,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class UserController {
     @RequestMapping("/getUser")
     public String getUser(Model model){
-        model.addAttribute("myname", "I am名称 玄玉");
+        model.addAttribute("myname", "I am 玄玉");
         return "myfree";
     }
 
     @RequestMapping("/getUserName")
     public String getUserName(Model model){
-        model.addAttribute("myname", "I am Jadyer");
+        model.addAttribute("myname", "I am Larry");
         return "username";
     }
 }
